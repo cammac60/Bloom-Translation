@@ -1,3 +1,33 @@
 * {
-    color: red;
+    box-sizing: border-box;
+}
+
+/* Start Header Styles
+------------------------------------------------------ */
+
+.header-content {
+    padding: 1em;
+}
+
+.menu--main > .menu {
+    display: flex;
+    font-family: "GothamHTF";
+    font-weight: bold;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.menu--main > .menu > .menu-item {
+    padding: 1em;
+}
+
+.menu--main > .menu > .menu-item > a {
+    color: #686159;
+    text-decoration: none;
+}
+
+.menu--main > .menu > .menu-item > .is-active {
+    color: #469d8a;
 }
