@@ -18,11 +18,17 @@
     'region-' ~ region|clean_class,
   ]
 %}
-  {{ kint() }}
 {% if content %}
   <div{{ attributes.addClass(classes) }}>
     <div class="header-content">
       {{ elements['mainlogo'] }}
+      <div class="header-content__options">
+        <div class="header-content__options__nav">
+          {{ elements['socialsmenu'] }}
+          {{ elements['languageswitcher'] }}
+        </div>
+        {{ elements['bloom_translation_search'] }}
+      </div>
     </div>
     {{ elements['mainnavigation'] }}
   </div>

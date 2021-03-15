@@ -1,12 +1,20 @@
+@import './fonts.css';
+
 * {
     box-sizing: border-box;
+    font-family: 'Gotham';
 }
 
 /* Start Header Styles
 ------------------------------------------------------ */
 
+.region-header {
+    padding: 2em;
+}
+
 .header-content {
-    padding: 1em;
+    display: flex;
+    justify-content: space-between;
 }
 
 .menu--main > .menu {
@@ -28,6 +36,14 @@
     text-decoration: none;
 }
 
+.menu--main > .menu > .menu-item > a:hover {
+    color: #1f1d1a
+}
+
 .menu--main > .menu > .menu-item > .is-active {
     color: #469d8a;
+}
+
+.menu--main > .menu > .menu-item > .is-active:hover {
+    color: #21574b;
 }
