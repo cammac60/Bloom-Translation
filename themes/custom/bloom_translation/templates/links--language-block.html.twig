@@ -32,7 +32,6 @@
  */
 #}
 {% if links -%}
-{{ kint() }}
   {%- if heading -%}
     {%- if heading.level -%}
       <{{ heading.level }}{{ heading.attributes }}>{{ heading.text }}</{{ heading.level }}>
@@ -40,7 +39,7 @@
       <h2{{ heading.attributes }}>{{ heading.text }}</h2>
     {%- endif -%}
   {%- endif -%}
-  <ul{{ attributes }}>
+  <ul class="language-links-list" {{ attributes }}>
     {%- for item in links -%}
       <li{{ item.attributes }}>
         {%- if item.link -%}
