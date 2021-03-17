@@ -9,7 +9,12 @@
 ------------------------------------------------------ */
 
 .region-header {
+    background-color: rgba(255, 255, 255, 0.5);
     padding: 2em;
+    position: fixed;
+    top: -90; 
+    width: 100vw;
+    z-index: 100;
 }
 
 .header-content {
@@ -97,4 +102,45 @@
 .language-link > img {
     height: 27px;
     width: 36px;
+}
+
+/* End Header Styles 
+----------------------------------------------------- */
+
+/* Begin carousel styles
+----------------------------------------------------- */
+
+.carousel {
+    color: white;
+    text-align: center;
+    top: -90;
+    width: 100vw;
+    z-index: -1;
+}
+
+.carousel-img {
+    width: 100%;
+}
+
+.carousel-title {
+    font-size: 5.5em;
+    left: 50%;
+    letter-spacing: 0.03em;
+    position: absolute;
+    text-shadow: -2px 2px black;
+    top: 42%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.carousel-btn {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid black;
+    color: black;
+    font-size: 2em;
+    left: 50%;
+    outline: none;
+    position: absolute;
+    top: 59%;
+    transform: translate(-50%, -50%);
 }
