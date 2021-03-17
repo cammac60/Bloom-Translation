@@ -10,11 +10,17 @@
 
 .region-header {
     background-color: rgba(255, 255, 255, 0.5);
-    padding: 2em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
     position: fixed;
     top: -90; 
     width: 100vw;
     z-index: 100;
+    -moz-box-shadow:    0px 2px 5px 1px rgb(97 95 95);
+    -webkit-box-shadow: 0px 2px 5px 1px rgb(97 95 95);
+    box-shadow:         0px 2px 5px 1px rgb(97 95 95);
 }
 
 .header-content {
@@ -54,8 +60,10 @@
     font-family: "GothamHTF";
     font-weight: bold;
     justify-content: center;
+    margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 3%;
     width: 70%;
 }
 
