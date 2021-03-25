@@ -253,6 +253,7 @@
 }
 
 .translation-services-box {
+    background-color: white;
     display: flex;
 }
 
@@ -263,4 +264,20 @@
 
 .translation-services__text {
     padding: 1em;
+}
+
+
+.translation-services__text > h4 {
+    color: #1b72aa;
+    font-size: 1.5em;
+    margin-bottom: 0;
+    margin-top: 0.5em;
+}
+
+.translation-services__text > p {
+    color: #686159;
+}
+.translation-services__text > p > a {
+    color: black;
+    font-family: 'Roboto';
 }
