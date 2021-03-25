@@ -149,6 +149,16 @@
     transform: translate(-50%, -50%);
 }
 
+.carousel-btn:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.carousel-btn:active {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid white;
+    color: white;
+}
+
 /* End carousel styles 
 ----------------------------------------------------- */
 
@@ -193,8 +203,34 @@
 }
 
 .message-right > h3 {
-    font-size: 3em;
+    font-family: 'Roboto';
+    font-size: 3.5em;
+    margin-bottom: 0.5em;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    margin-top: 0.5em;
+    width: 90%;
+}
+
+.message-right > p {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    margin-top: 0;
+}
+
+.message-right > button {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid black;
+    font-size: 2em;
+    outline: none;
+}
+
+.message-right > button:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.message-right > button:active {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid white;
+    color: white;
 }
