@@ -9,7 +9,7 @@
 ------------------------------------------------------ */
 
 .region-header {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
     padding-bottom: 1em;
     padding-left: 2em;
     padding-right: 2em;
@@ -26,10 +26,6 @@
 .header-content {
     display: flex;
     justify-content: space-between;
-}
-
-.block-mainlogo {
-    width: 30%;
 }
 
 #block-socialsmenu {
@@ -151,4 +147,54 @@
     position: absolute;
     top: 59%;
     transform: translate(-50%, -50%);
+}
+
+/* End carousel styles 
+----------------------------------------------------- */
+
+/* Start message from Polina styles
+----------------------------------------------------- */
+
+.message {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.message-left {
+    display: flex;
+    width: 70%;
+}
+
+.message-left__text > h3 {
+    color: #1b72aa;
+    font-family: 'Roboto';
+    font-size: 2.5em;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.message-left__img {
+    padding-right: 1em;
+}
+
+.message-divider {
+    background-color: black;
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 2px;
+}
+
+.message-right {
+    background-color: #86bbda;
+    text-align: center;
+    width: 30%;
+}
+
+.message-right > h3 {
+    font-size: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }
