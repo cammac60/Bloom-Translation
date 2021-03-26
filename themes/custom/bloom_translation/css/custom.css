@@ -277,3 +277,17 @@
     color: black;
     font-family: 'Roboto';
 }
+
+/* End translation services styles
+----------------------------------------------------- */
+
+/* Start footer styles
+----------------------------------------------------- */
+
+.region-footer {
+    background-color: #686159;
+    color: white;
+    display: flex;
+    margin-bottom: 8em;
+    padding: 4em 2em 3em 2em;
+}
