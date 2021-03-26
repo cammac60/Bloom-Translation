@@ -291,3 +291,23 @@
     margin-bottom: 8em;
     padding: 4em 2em 3em 2em;
 }
+
+.region-footer__right {
+    margin-left: 5em;
+}
+
+#block-mainnavigation-2 > .menu > .menu-item > a {
+    color: white;
+}
+
+#block-mainnavigation-2 > .menu > .menu-item > .is-active {
+    color: #469d8a;
+}
+
+#block-mainnavigation-2 > .menu > .menu-item > a:hover {
+    color:rgb(168, 168, 168);
+}
+
+#block-mainnavigation-2 > .menu > .menu-item > .is-active:hover {
+    color: #21574b;
+}
