@@ -505,5 +505,133 @@
     margin-bottom: 1em;
 }
 
-/* Start polina bio styles
+/* End polina bio styles
+----------------------------------------------------- */
+
+/* Start testimonials styles
+----------------------------------------------------- */
+
+.testimonials-banner {
+    color: white;
+    text-align: center;
+    top: -90;
+    width: 100vw;
+    z-index: -1;
+}
+
+.testimonials-banner > img {
+    width: 100%;
+}
+
+.testimonials-banner > h2 {
+    background-color: rgba(32, 105, 175, 0.7);
+    font-size: 3.5em;
+    left: 50%;
+    margin: 0;
+    padding: 0.5em 1em;
+    position: absolute;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.testimonials-left {
+    min-width: 70%;
+}
+
+.testimonials-left > h3 {
+    color: #1b72aa;
+    font-size: 2em;
+    margin-top: 0;
+}
+
+.testimonials-left > p {
+    color: #686159;
+    font-size: 1.5em;
+}
+
+.testimonials-left__quote {
+    font-style: italic;
+    margin-top: 2em;
+}
+
+.testimonials-divider {
+    background-color: black;
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 1px;
+}
+
+.testimonials-right__divider {
+    background-color: black;
+    height: 1px;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    width: 100%;
+}
+
+.testimonials-right__cta {
+    background-color: #86bbda;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    text-align: center;
+}
+
+.testimonials-right__cta > h3 {
+    font-family: 'Roboto';
+    font-size: 3.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    width: 90%;
+}
+
+.testimonials-right__cta > p {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    margin-top: 0;
+}
+
+.testimonials-right__cta > button {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid black;
+    font-size: 2em;
+    outline: none;
+}
+
+.testimonials-right__cta > button:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.testimonials-right__cta > button:active {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid white;
+    color: white;
+}
+
+.testimonials-right__testimonial {
+    background-color: #f0f5fe;
+    border: 1px solid black;
+    color: #274467;
+    font-size: 2em;
+    padding: 1em;
+    text-align: left;
+}
+
+.testimonials-right__testimonial > p {
+    margin: 0;
+}
+
+.testimonials-right__testimonial > .quote {
+    font-style: italic;
+    margin-bottom: 1em;
+}
+/* End testimonials styles
 ----------------------------------------------------- */
