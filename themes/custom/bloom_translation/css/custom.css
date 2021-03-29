@@ -439,6 +439,14 @@
     width: 1px;
 }
 
+.bio-right__divider {
+    background-color: black;
+    height: 1px;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    width: 100%;
+}
+
 .bio-right__cta {
     background-color: #86bbda;
     padding-bottom: 1em;
@@ -477,6 +485,24 @@
     background-color: rgba(0, 0, 0, 0.7);
     border: 1px solid white;
     color: white;
+}
+
+.bio-right__testimonial {
+    background-color: #f0f5fe;
+    border: 1px solid black;
+    color: #274467;
+    font-size: 2em;
+    padding: 1em;
+    text-align: left;
+}
+
+.bio-right__testimonial > p {
+    margin: 0;
+}
+
+.bio-right__testimonial > .quote {
+    font-style: italic;
+    margin-bottom: 1em;
 }
 
 /* Start polina bio styles
