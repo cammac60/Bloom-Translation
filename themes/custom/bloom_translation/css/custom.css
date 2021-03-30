@@ -12,6 +12,29 @@
     color:#1b72aa;
 }
 
+.banner {
+    color: white;
+    text-align: center;
+    top: -90;
+    width: 100vw;
+    z-index: -1;
+}
+
+.banner > img {
+    width: 100%;
+}
+
+.banner > h2 {
+    background-color: rgba(32, 105, 175, 0.7);
+    font-size: 3.5em;
+    left: 50%;
+    margin: 0;
+    padding: 0.5em 1em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 80%;
+}
+
 /* End Global Styles
 ------------------------------------------------------ */
 /* Start Header Styles
@@ -151,6 +174,16 @@
     border: 1px solid black;
     font-size: 2em;
     outline: none;
+}
+
+.main-cta > button:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.main-cta > button:active {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid white;
+    color: white;
 }
 
 /* End CTA Styles 
@@ -458,114 +491,27 @@
 /* End footer styles
 ----------------------------------------------------- */
 
-/* Start about banner styles
+/* Start about styles
 ----------------------------------------------------- */
-
-.about-banner {
-    color: white;
-    text-align: center;
-    top: -90;
-    width: 100vw;
-    z-index: -1;
-}
-
-.about-banner > img {
-    width: 100%;
-}
 
 .about-banner > h2 {
-    background-color: rgba(32, 105, 175, 0.7);
-    font-size: 3.5em;
-    left: 50%;
-    padding: 0.5em 1em;
-    position: absolute;
     top: 65%;
-    transform: translate(-50%, -50%);
-    width: 80%;
 }
 
-/* End about banner styles
------------------------------------------------------ */
-
-/* Start polina bio styles
------------------------------------------------------ */
-
-.polina-bio {
-    display: flex;
-    justify-content: space-between;
-    padding: 2em;
+#block-aboutcontent {
+    width: 85%;
 }
 
-.polina-bio__left {
-    max-width: 70%;
-}
-
-.polina-bio__left > h3 {
-    color: #1b72aa;
+.about-content > h2 {
     font-size: 2em;
     margin-top: 0;
 }
 
-.polina-bio__left > p {
+.about-content > p {
     color: #686159;
 }
 
-.polina-bio__divider {
-    background-color: black;
-    margin-left: 1em;
-    margin-right: 1em;
-    width: 1px;
-}
-
-.bio-right__divider {
-    background-color: black;
-    height: 1px;
-    margin-bottom: 2em;
-    margin-top: 2em;
-    width: 100%;
-}
-
-.bio-right__cta {
-    background-color: #86bbda;
-    padding-bottom: 1em;
-    padding-top: 1em;
-    text-align: center;
-}
-
-.bio-right__cta > h3 {
-    font-family: 'Roboto';
-    font-size: 3.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    width: 90%;
-}
-
-.bio-right__cta > p {
-    font-size: 2.5em;
-    margin-bottom: 0.5em;
-    margin-top: 0;
-}
-
-.bio-right__cta > button {
-    background-color: rgba(255, 255, 255, 0.5);
-    border: 1px solid black;
-    font-size: 2em;
-    outline: none;
-}
-
-.bio-right__cta > button:hover {
-    background-color: rgba(255, 255, 255, 0.7);
-}
-
-.bio-right__cta > button:active {
-    background-color: rgba(0, 0, 0, 0.7);
-    border: 1px solid white;
-    color: white;
-}
-
-.bio-right__testimonial {
+/* .bio-right__testimonial {
     background-color: #f0f5fe;
     border: 1px solid black;
     color: #274467;
@@ -581,36 +527,16 @@
 .bio-right__testimonial > .quote {
     font-style: italic;
     margin-bottom: 1em;
-}
+} */
 
-/* End polina bio styles
+/* End about styles
 ----------------------------------------------------- */
 
 /* Start testimonials styles
 ----------------------------------------------------- */
 
-.testimonials-banner {
-    color: white;
-    text-align: center;
-    top: -90;
-    width: 100vw;
-    z-index: -1;
-}
-
-.testimonials-banner > img {
-    width: 100%;
-}
-
 .testimonials-banner > h2 {
-    background-color: rgba(32, 105, 175, 0.7);
-    font-size: 3.5em;
-    left: 50%;
-    margin: 0;
-    padding: 0.5em 1em;
-    position: absolute;
     top: 55%;
-    transform: translate(-50%, -50%);
-    width: 80%;
 }
 
 .testimonials {
@@ -718,28 +644,8 @@
 /* Start services styles
 ----------------------------------------------------- */
 
-.services-banner {
-    color: white;
-    text-align: center;
-    top: -90;
-    width: 100vw;
-    z-index: -1;
-}
-
-.services-banner > img {
-    width: 100%;
-}
-
 .services-banner > h2 {
-    background-color: rgba(32, 105, 175, 0.7);
-    font-size: 3.5em;
-    left: 50%;
-    margin: 0;
-    padding: 0.5em 1em;
-    position: absolute;
     top: 55%;
-    transform: translate(-50%, -50%);
-    width: 80%;
 }
 
 #block-servicescontent {
