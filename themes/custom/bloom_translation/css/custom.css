@@ -5,6 +5,15 @@
     font-family: 'Gotham';
 }
 
+/* Start Global Styles
+------------------------------------------------------ */
+
+.blue-header {
+    color:#1b72aa;
+}
+
+/* End Global Styles
+------------------------------------------------------ */
 /* Start Header Styles
 ------------------------------------------------------ */
 
@@ -109,6 +118,75 @@
 }
 
 /* End Header Styles 
+----------------------------------------------------- */
+
+/* Start CTA Styles 
+----------------------------------------------------- */
+
+.main-cta {
+    background-color: #86bbda;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    text-align: center;
+}
+
+.main-cta > h3 {
+    font-family: 'Roboto';
+    font-size: 3.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    width: 90%;
+}
+
+.main-cta > p {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    margin-top: 0;
+}
+
+.main-cta > button {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid black;
+    font-size: 2em;
+    outline: none;
+}
+
+/* End CTA Styles 
+----------------------------------------------------- */
+
+/* Start Divider Styles 
+----------------------------------------------------- */
+
+.verticle-divider, .horizontal-divider {
+    background-color: #1f1d1a;
+}
+
+.verticle-divider {
+    margin-left: 2em;
+    margin-right: 2em;
+    width: 1px;
+}
+
+.horizontal-divider {
+    height: 1px;
+    width: 100%;
+}
+
+/* End Divider Styles 
+----------------------------------------------------- */
+
+/* Start Standard Layout Styles 
+----------------------------------------------------- */
+
+.standard-layout {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+/* End Standard Layout Styles 
 ----------------------------------------------------- */
 
 /* Begin carousel styles
@@ -633,5 +711,46 @@
     font-style: italic;
     margin-bottom: 1em;
 }
+
 /* End testimonials styles
 ----------------------------------------------------- */
+
+/* Start services styles
+----------------------------------------------------- */
+
+.services-banner {
+    color: white;
+    text-align: center;
+    top: -90;
+    width: 100vw;
+    z-index: -1;
+}
+
+.services-banner > img {
+    width: 100%;
+}
+
+.services-banner > h2 {
+    background-color: rgba(32, 105, 175, 0.7);
+    font-size: 3.5em;
+    left: 50%;
+    margin: 0;
+    padding: 0.5em 1em;
+    position: absolute;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+}
+
+#block-servicescontent {
+    width: 85%;
+}
+
+.services-content > h2 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.services-content > p {
+    color: #686159;
+}
