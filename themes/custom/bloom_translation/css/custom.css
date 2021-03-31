@@ -204,6 +204,8 @@
 
 .horizontal-divider {
     height: 1px;
+    margin-bottom: 2em;
+    margin-top: 2em;
     width: 100%;
 }
 
@@ -220,6 +222,77 @@
 }
 
 /* End Standard Layout Styles 
+----------------------------------------------------- */
+
+/* Start Single Testimonial Styles 
+----------------------------------------------------- */
+
+.view-single-testimonial > .view-content {
+    background-color: #f0f5fe;
+    border: 1px solid black;
+    color: #274467;
+    font-size: 2em;
+    padding: 1em;
+    text-align: left;
+}
+
+.view-single-testimonial > .view-content > p {
+    margin: 0;
+}
+
+.bio-right__testimonial > .quote {
+    font-style: italic;
+    margin-bottom: 1em;
+}
+
+/* End Single Testimonial Styles 
+----------------------------------------------------- */
+
+/* Start Single Blog Styles 
+----------------------------------------------------- */
+
+.view-single-blog-post {
+    background-color: #96dacb;
+}
+
+.view-single-blog-post > .view-content > .views-row > .views-field-field-image > img {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.view-single-blog-post > .view-content > .views-row > .views-field-title {
+    font-family: 'Roboto';
+    font-size: 2em;
+    font-weight: bold;
+    padding: 0.5em;
+}
+
+.view-single-blog-post > .view-content > .views-row > .views-field-body {
+    padding: 0em 1em;
+    -webkit-box-decoration-break: clone;
+}
+
+.view-single-blog-post > .view-content > .views-row > .views-field-view-node {
+    
+}
+
+.view-single-blog-post > .view-content > .views-row > .views-field-view-node > .field-content > a {
+    color: black;
+    font-family: 'Roboto';
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.view-single-blog-post > .view-content > .views-row > .views-field-view-node > .field-content > a:hover {
+    color: #3f3f3e;
+}
+
+.view-single-blog-post > .view-content > .views-row > .views-field-view-node > .field-content > a:active {
+    color: white;
+}
+
+/* End Single Blog Styles 
 ----------------------------------------------------- */
 
 /* Begin carousel styles
@@ -511,24 +584,6 @@
     color: #686159;
 }
 
-/* .bio-right__testimonial {
-    background-color: #f0f5fe;
-    border: 1px solid black;
-    color: #274467;
-    font-size: 2em;
-    padding: 1em;
-    text-align: left;
-}
-
-.bio-right__testimonial > p {
-    margin: 0;
-}
-
-.bio-right__testimonial > .quote {
-    font-style: italic;
-    margin-bottom: 1em;
-} */
-
 /* End about styles
 ----------------------------------------------------- */
 
@@ -649,7 +704,7 @@
 }
 
 #block-servicescontent {
-    width: 85%;
+    width: 70%;
 }
 
 .services-content > h2 {
@@ -659,4 +714,8 @@
 
 .services-content > p {
     color: #686159;
+}
+
+.services-aside {
+    width: 30%;
 }
