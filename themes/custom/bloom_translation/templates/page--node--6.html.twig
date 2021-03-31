@@ -65,8 +65,12 @@
       <div class="about-wrapper standard-layout">
         {{ page.content['aboutcontent'] }}
         <div class="verticle-divider"></div>
-        <aside class="">
-        {{ page.content['maincta'] }}
+        <aside class="about-aside">
+          {{ page.content['maincta'] }}
+          <div class="horizontal-divider"></div>
+          {{ page.content['views_block__single_testimonial_block_1'] }}
+          <div class="horizontal-divider"></div>
+          {{ page.content['views_block__single_blog_post_block_1'] }}
         </aside>
       </div>
       {{ kint(page) }}

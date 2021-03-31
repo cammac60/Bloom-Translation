@@ -63,15 +63,17 @@
     <div class="layout-content">
       {{ page.content['servicesbanner'] }}
       <div class="servcies-wrapper standard-layout">
-        {{ page.content['servicescontent'] }}
+        <div class="services-content-wrapper">
+         {{ page.content['servicescontent'] }}
+         {{ page.content['views_block__services_block_1'] }}
+        </div>
         <div class="verticle-divider"></div>
         <aside class="services-aside">
-        {{ page.content['maincta'] }}
-        <div class="horizontal-divider"></div>
-        {{ page.content['views_block__single_testimonial_block_1'] }}
-        <div class="horizontal-divider"></div>
-        <div id="blog-post-img"></div>
-        {{ page.content['views_block__single_blog_post_block_1'] }}
+          {{ page.content['maincta'] }}
+          <div class="horizontal-divider"></div>
+          {{ page.content['views_block__single_testimonial_block_1'] }}
+          <div class="horizontal-divider"></div>
+          {{ page.content['views_block__single_blog_post_block_1'] }}
         </aside>
       </div>
       {{ kint(page) }}
