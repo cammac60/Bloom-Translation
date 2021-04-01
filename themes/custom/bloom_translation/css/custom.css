@@ -740,3 +740,16 @@
     font-size: 1.1em;
     font-weight: bold;
 }
+
+/* End Services styles
+----------------------------------------------------- */
+
+/* Start Industries styles
+----------------------------------------------------- */
+
+.industries-banner > h2 {
+    top: 50%;
+}
+
+/* End Industries styles
+----------------------------------------------------- */
