@@ -751,9 +751,11 @@
     top: 50%;
 }
 
-#block-industry-teasers > h2 {
+#block-views-block-industry-teasers-block-1 > h2 {
     color:#1b72aa;
+    font-family: 'Roboto';
     font-size: 2em;
+    font-weight: bold;
 }
 
 .view-industry-teasers > .view-content > .views-row {
@@ -761,8 +763,8 @@
     display: grid;
     grid-auto-rows: minmax(15%, auto);
     grid-template-columns: 2fr 1fr;
-    margin-bottom: 2.5em;
-    padding-bottom: 7em;
+    margin-bottom: 1em;
+    padding-bottom: 6em;
 }
 
 .view-industry-teasers > .view-content > .views-row > .views-field-title {
@@ -778,5 +780,11 @@
 .views-field-body > span > p {
     margin-top: 0;
 }
+
+.views-field-title {
+    color:#1b72aa;
+    font-size: 1.5em;
+}
+
 /* End Industries styles
 ----------------------------------------------------- */
