@@ -796,6 +796,14 @@
     top: 75%;
 }
 
+.values-content-wrapper {
+    width: 70%;
+}
+
+.values-aside {
+    width: 30%;
+}
+
 .values-content__header {
     font-family: 'Roboto';
     font-size: 3em;
