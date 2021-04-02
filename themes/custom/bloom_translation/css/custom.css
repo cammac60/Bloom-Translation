@@ -796,5 +796,21 @@
     top: 75%;
 }
 
+.values-content__header {
+    font-family: 'Roboto';
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.values-content__sub-header {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.values-content__text {
+    color: #3f3f3e;
+}
+
 /* End Values styles
 ----------------------------------------------------- */
