@@ -816,9 +816,47 @@
     margin: 0;
 }
 
-.values-content__text {
+.values-content__text, .work-principles__subtitle, .work-principles-body {
     color: #3f3f3e;
 }
 
+.work-principles__header {
+    font-size: 1.5em;
+}
+
+.work-principles-body__list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.work-principles-body__list > li > h5 {
+    font-size: 1em;
+}
+
 /* End Values styles
+----------------------------------------------------- */
+
+/* Start Blog styles
+----------------------------------------------------- */
+
+.blog-wrapper {
+    margin-top: 15%;
+}
+
+.blog-content-wrapper {
+    width: 70%;
+}
+
+.blog-aside {
+    width: 30%;
+}
+
+.blog-content__header {
+    font-family: 'Roboto';
+    font-size: 3em;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* End Blog styles
 ----------------------------------------------------- */
